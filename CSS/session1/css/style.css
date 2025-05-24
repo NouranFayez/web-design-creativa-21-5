@@ -1,0 +1,99 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: green;
+}
+
+.text-red{
+    color: red;
+}
+
+#text-id{
+    color: rgb(128, 66, 0);
+}
+h1{
+    color: aqua;
+}
+h1 {
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+
+h1 , h2 , h3 , h4, p  {
+margin: 0;
+}
+
+.card{
+    width: 40%;
+    display: inline-block;
+    margin-top: 9%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    margin-left: 2%;
+    margin: 2% 4% 5% 5%;
+    margin: 2% 5% 6%;
+    margin: 2% 5%;
+    margin: 5%;
+    /* margin: 2% auto; */
+    /* margin-left: auto; */
+    margin-left: auto;
+    margin-right: auto;
+        border-top: 18px red groove;
+    border-bottom: 3px solid blue;
+    border: 2px solid;
+    color: blue;
+    padding: 2%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.card img{
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+}
+
+#h1-style{
+    background-color: lightgray;
+    /* padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%; */
+    padding: 2%;
+    /* left (default) , center , right */
+    text-align: center;
+
+
+}
+.card a {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+    display: inline-block;
+    /* underline (default) , line-through , overline */
+    text-decoration: none;
+}
+
+
+.input-style{
+    margin: 4%;
+    padding: 2%;
+    background-color: lightgray;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px 20px 30px 40px;
+}

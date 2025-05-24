@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off">
+
+        <label>First Name</label>
+        <input type="text" name="firstName" autofocus autocomplete="off">
+        <br>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required> <br>
+        <input type="text" value="Alex" name="shippingArea" disabled>
+        <input type="text" value="Alex" name="shippingPoint" readonly>
+        <input type="email" placeholder="Email"   >
+        <input type="password" placeholder="password" 
+         name="userPassword"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" > <br>
+         <input type="number" placeholder="age" >
+         <br>
+
+         <!-- <label>Track</label> -->
+         <select name="track" multiple>
+            <option disabled selected>Choose your Track</option>
+            <option value="0">Frontend</option>
+            <option value="1">Backend</option>
+            <option value="2">Network</option>
+         </select>
+         <br>
+        <!-- !@#$%&* -->
+
+        <input type="file" name="cv" multiple>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> <span>Male</span>
+        <span>
+            <input type="radio" name="gender" value="female"> 
+            Female
+        </span>
+
+        <br>
+
+        <label>Courses</label>
+        <input type="checkbox" name="courses" value="1"><span>FrontEnd</span>
+        <input type="checkbox" name="courses" value="2"><span>Backend</span>
+        <input type="checkbox" name="courses" value="3"><span>Network</span>
+
+        <br>
+
+        <input type="color" name="color">
+
+        <br>
+
+        <input type="date" name="date">
+        <input type="datetime-local" name="dateTime">
+        <input type="month" name="month">
+
+        <br>
+
+        <input type="range" name="range" value="500" min="300" max="500">
+
+        <textarea rows="5" cols="100" placeholder="enter your address" name="address" required></textarea>
+        <br>
+
+        <input type="submit" value="Register">
+        <button type="button">
+            Login
+        </button>
+         <button type="reset">
+            rest
+        </button>
+        <input type="reset" value="Clear Data">
+
+        <!-- DataList -->
+
+    </form>
+</body>
+</html>

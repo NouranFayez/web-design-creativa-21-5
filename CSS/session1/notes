@@ -1,0 +1,11 @@
+css methods ==> internal Sheet
+                inline style
+                External Sheet
+
+
+-- css selector {
+    css property : css value ;
+}
+
+
+-- periority of css ==> tag - class 
