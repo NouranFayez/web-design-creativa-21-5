@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <nav>
+    <nav id="nav">
         <div class="container">
             <h1 class="d-inline-block">
                 ax<span>it</span></h1>
             <ul class="d-inline-block">
                 <li class="d-inline-block">
-                    <a href="">Home</a>
+                    <a href="#home-section">Home</a>
                 </li>
-                 <li class="d-inline-block">
-                    <a href="">About</a>
+                <li class="d-inline-block">
+                    <a href="#about-section">About</a>
                 </li>
-                 <li class="d-inline-block">
-                    <a href="">Services</a>
+                <li class="d-inline-block">
+                    <a href="#service-section">Services</a>
                 </li>
-                 <li class="d-inline-block">
-                    <a href="">Contact</a>
+                <li class="d-inline-block">
+                    <a href="#contact-section">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section class="bg-img">
+
+
+    <section class="bg-img" >
         <div class="overlay">
             <div class="container padding-top-bottom">
                 <aside class="text-white banner-aside d-inline-block">
@@ -53,7 +61,7 @@
         </div>
     </section>
 
-     <section class="bg-img">
+    <section class="bg-img">
         <div class="overlay">
             <div class="container padding-top-bottom">
                 <aside class="text-white banner-aside float-left">
@@ -70,7 +78,7 @@
                     <input type="password" placeholder="Password" class="d-block">
                     <button>Submit</button>
                 </form>
-                   <div class="clear"></div>
+                <div class="clear"></div>
                 <form class="">
                     <h3>Lorem ipsum dolor sit amet.</h3>
                     <input type="text" placeholder="Name" class="d-block">
@@ -78,13 +86,48 @@
                     <input type="password" placeholder="Password" class="d-block">
                     <button>Submit</button>
                 </form>
-             
+
 
 
             </div>
 
         </div>
     </section>
-    
+
+    <section class="padding-top-bottom">
+        <div class="container">
+            <a href="" class="icon-circle">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+
+            <div class="custom-card position-relative">
+                <img src="images/banner.jpg" alt="">
+                <button class="custom-btn">Travel</button>
+                <button class="custom-btn custom-bg-black-white">Travel</button>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <section id="home-section" class="custom-section">
+        Home
+    </section>
+      <section id="about-section" class="custom-section bg-light">
+        About
+    </section>
+      <section id="services-section" class="custom-section">
+        Services
+    </section>
+      <section id="contact-section" class="custom-section bg-light">
+        Contact
+    </section>
+
+    <a href="#nav" class="icon-circle position-fixed">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
 </body>
+
 </html>
