@@ -1,0 +1,114 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* global style */
+    .container{
+        width: 80%;
+        margin: 0% auto;
+    }
+    .d-inline-block{
+        display: inline-block;
+    }
+    .overlay{
+        background-color: #00000073;
+        height: 100%;
+    }
+    .text-white{
+        color: white;
+    }
+    .d-block{
+        display: block;
+    }
+    .padding-top-bottom{
+        padding: 7% 0;
+    }
+    .float-left{
+        float: left;
+    }
+    .float-right{
+        float: right;
+    }
+    .clear{
+        clear: both;
+    }
+/* custom style */
+nav{
+    background-color: lightgray;
+    padding: 2% 0%;
+}
+nav h1{
+    /* capitalize , lowercase , uppercase */
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+nav span{
+    color: orangered;
+}
+nav ul {
+        margin-left: 52%;
+        width: 35%;
+}
+
+nav ul li{
+    padding: 0% 2%;
+}
+
+
+.bg-img{
+    /* background-image: url(https://media.istockphoto.com/id/1696781145/photo/modern-building-in-the-city-with-blue-sky.jpg?s=612x612&w=0&k=20&c=POfayTyDe06tGX4CeJgS8-fb896MUC46dl3ZbHXBqN4=); */
+    background-image: url(../images/banner.jpg);
+        /* height: 600px; */
+    background-position: top left;
+    background-size: 136% 139%;
+}
+
+.banner-aside{
+    width: 40%;
+}
+.banner-aside button{
+    padding: 2%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+hr{
+    margin: 4% 0;
+        width: 18%;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.bg-img form{
+    width: 40%;
+    background-color: white;
+}
+
+form h3{
+    background-color: lightgray;
+    font-weight: bold;
+}
+.bg-img input{
+        width: 58%;
+    margin: 2% auto;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid lightgray;
+}
+.bg-img form button{
+        background: goldenrod;
+    width: 100%;
+    padding: 2%;
+    border: 0;
+}
+
