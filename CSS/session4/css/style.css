@@ -1,0 +1,104 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global Style */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-light{
+    background-color: #f7f7f7;
+}
+section{
+        padding: 3% 0;
+}
+.d-flex{
+    display: flex;
+    /* justify-content: start (default) , end , center , space-between , space-around , space-evenly; */
+    justify-content: space-between;
+    /* align-items: strtech (default) , start , end , center; */
+    align-items: center;
+    /* flex-direction ==> row (default) , row-reverse , column , column-reverse */
+    flex-wrap: wrap;
+    /* flex-flow:  flex-direction + flex-wrap; */
+    /* align-content: start , end , center , space-between , space-around , space-evenly; */
+    align-content: space-between;
+    /* height: 700px; */
+    /* background-color: black; */
+}
+.hidden-card{
+    /* display: none; */
+    /* opacity: 0 : 1; */
+    visibility: hidden;
+}
+.position-relative{
+    position: relative;
+}
+/* custom Style */
+
+.card{
+    /* display: inline-block; */
+    width: 30%;
+    background: white;
+    padding: 2%;
+    border: 1px solid ;
+    /* transition-duration: 5s ;
+    transition-property: height ; */
+    /* height: 200px; */
+    /* transition-timing-function: ease , ease-in , ease-out , linear , ease-in-out ; */
+    /* transition-timing-function: linear;
+    transition-delay: 2s ; */
+    /* transition: 4s height linear; */
+    transition: 4s height , 10s width , backgroundColor 3s;
+}
+.card .card-img{
+    width: 100%;
+    display: block;
+}
+.overlay{
+       position: absolute;
+    background-color: rgba(0, 0, 0, 0.506);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: none;
+    align-items: end;
+    padding-left: 8%;
+}
+.card:hover .overlay{
+    display: flex;
+}
+.card a{
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 2% 7%;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+
+.card a:hover{
+    background-color: blue;
+}
+
+.card:hover h3{
+    color: red;
+}
+.card:hover {
+    /* width: 60%;
+    height: 400px; */
+}
+
+
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
