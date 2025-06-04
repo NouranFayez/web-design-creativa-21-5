@@ -1,0 +1,47 @@
+/* -- rule mediaType condition */
+/* media type ==> all , screen (default) , print , speech */
+/* condition ==> max-width , min-width */
+
+/* screen ==> 350 */
+/* 0 : 767.98 */
+@media (max-width: 767.98px) { 
+    .left-aside{
+        background-color: cadetblue;
+    }
+ }
+
+/* 0 : 360px */
+@media (max-width:390px){
+    .left-aside{
+        width: 100%;
+        background-color: blanchedalmond;
+    }
+    .w-45{
+        width: 100%;
+    }
+    .right-aside{
+        width: 100%;
+    }
+}
+
+@media (min-width:992px){
+    .left-aside{
+        background-color: lightblue
+    }
+}
+
+
+@media (min-width:600px) and (max-width:800px){
+    .left-aside{
+        background-color: brown;
+    }
+    .d-none-sm{
+        /* display: none; */
+    }
+}
+
+@media print{
+    .left-aside{
+        display: none;
+    }
+}

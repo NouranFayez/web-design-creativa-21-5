@@ -1,0 +1,164 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+     font-weight: 800;
+  font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* global Style */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-dark {
+    background-color: rgb(32, 32, 32);
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-white {
+    color: white;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-45{
+    width: 45%;
+}
+.w-35{
+    width: 35%;
+}
+.w-60{
+    width: 60%;
+}
+.shadow{
+    box-shadow: 0px 0px 5px 5px #eee;
+}
+.custom-margin-bottom{
+    margin-bottom: 2%;
+}
+
+/* custom style  */
+nav {
+    padding: 1% 0;
+}
+
+nav h2 {
+    font-size: 45px;
+}
+
+nav .nav-links {
+    width: 23%;
+    font-size: 20px;
+}
+
+
+.dropdown {
+    display: none;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    width: 150px;
+    box-shadow: 0px 0px 5px #afafaf;
+}
+
+.dropdown li {
+    padding: 5px;
+}
+
+.dropdown-link {
+    position: relative;
+}
+
+.dropdown-link:hover .dropdown {
+    display: block;
+}
+
+.card-position {
+    width: 30%;
+    position: relative;
+}
+
+.card-position img {
+    width: 100%;
+    /* filter: opacity(.2); */
+    /* filter: brightness(0.6); */
+    /* filter: contrast(1.4); */
+    /* /* filter: drop-shadow(2px 4px 6px black); ==> search */
+}
+
+.card-position i {
+    position: absolute;
+    font-size: 40px;
+    left: calc(50% - 20px);
+    color: white;
+    top: calc(50% - 20px);
+}
+
+.card-text{
+    width: 40%;
+    padding: 2%;
+    background:lightgray;
+    height: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.text-shadow{
+    font-size: 30px;
+    margin-top: 3%;
+    text-shadow: 0px 0px 5px black, 0px 0px 15px red, 0px 0px 30px blue;
+    color: white;
+    
+}
+.left-aside{
+    width: 65%;
+    /* background-color: aliceblue;  */
+
+}
+.right-aside{
+    width: 30%;
+    background-color: antiquewhite;
+}
+
+.custom-margin-top{
+    margin-top: 4%;
+}
+
+.left-aside-card-lg{
+    width: 45%;
+}
+.left-aside-card-lg img{
+    width: 100%;
+}
+
+
+
+
