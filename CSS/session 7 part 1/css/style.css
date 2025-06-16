@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.card{
+    box-shadow: 0px 0px 5px lightgray;
+    background-color: teal;
+    padding: 2%;
+    color: white;
+    width: 35%;
+    margin-top: 4%;
+}
+.card p{
+    font-size: 30px;
+}
+
+.card>p{
+    color: red;
+}
+
+.card+ul{
+    font-size: 25px;
+    color: blue;
+}
+
+.card~ul{
+    border: 2px solid ;
+    margin: 2% 0%;
+}
+
+.card:hover +ul{
+    background-color: aquamarine;
+}
+
