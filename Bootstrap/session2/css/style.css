@@ -1,0 +1,10 @@
+.vh-80{
+    height: 80vh;
+}
+.carousel-caption{
+    bottom: 16.25rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: maroon;
+}
