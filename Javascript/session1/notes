@@ -1,0 +1,19 @@
+// string , number , boolean ,  null , undefined
+
+// js ==> camelCase , case Sensitive
+
+// template string
+
+// Opertaions ==> Mathematical Operators (+ , - , * , ** , / % ++ --)
+                  Assignment Operators (+= , -= , *= , /= , %=)
+                  Comparison Operators (> , >= , < , <= , == , === , != , !==)
+                  Logical Operators (&& , || , !)
+                  ternary Operators (condition)? true condition : false condition
+                  unary operators (typeof) , (instanceof ==> search)
+
+// truthy value ==> " " , "string" , 30 , true                  
+// falsy value ==> 0 , -0 , "" , null , undefined , false  
+
+
+// final project ==> https://digitaltemplatemarket.com/wp/tradex-premium/
+                     https://digitaltemplatemarket.com/wp/tradex-premium/contact/
